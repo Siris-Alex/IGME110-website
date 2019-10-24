@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+    
+header, footer, aside, article{
+ border: 1px solid white;
+}   
+
+html{
+    background-color: black;
+}
+header{
+    height: 100px;
+    text-align: center;
+    font-size: 28px;
+}
+#container{
+    width: 800px;
+    color: white;
+    background-color:darkcyan;
+    margin: 0 auto;
+    height: 548px
+}
+#portrait_img{
+    width: 300px;
+    border: 4px solid gold
+}
+
+aside{
+    float: left;
+    width:56%
+}
+article{
+    float:right;
+    width:42%;
+    height:340px    
+
+}
+footer{
+    clear: both
+}
